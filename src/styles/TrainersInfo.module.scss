@@ -1,0 +1,154 @@
+.trainerInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+
+  @media (min-width: 760px) {
+    grid-column: span 3;
+  }
+
+  @media (min-width: 1200px) {
+    grid-column: span 2;
+  }
+
+  &__image {
+    display: flex;
+    width: 100%;
+    height: 450px;
+    border-radius: 18px;
+    margin-bottom: 15px;
+  }
+
+  &__name {
+    color: #7B5295;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+    opacity: 0.9;
+    margin: 0;
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    height: 320px;
+
+    &>p {
+      line-height: 1.5rem;
+      text-align: center;
+    }
+  }
+
+  &-button {
+    font: inherit;
+    padding: 15px;
+    border-style: solid;
+    border-radius: 35px;
+    border-color: #4C266A;
+    background: transparent;
+    border-width: 1px;
+    cursor: pointer;
+
+    width: 100%;
+    align-self: flex-end;
+
+    color: #4C266A;
+    font-weight: 500;
+
+    transition: 0.4s;
+
+    &:hover {
+      background-color: #4C266A;
+      color: #ffedff;
+      opacity: 0.6;
+      scale: (1.05);
+      transition: 0.4s;
+    }
+  }
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Adds a dim background */
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+
+  overflow: scroll;
+
+  &-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  &-button {
+    font: inherit;
+    padding: 15px;
+    border-style: solid;
+    border-radius: 35px;
+    border-color: #4C266A;
+    background: transparent;
+    border-width: 1px;
+    cursor: pointer;
+
+    width: 50%;
+    align-self: center;
+
+    color: #4C266A;
+    font-weight: 500;
+
+    transition: 0.4s;
+
+    &:hover {
+      background-color: #4C266A;
+      color: #ffedff;
+      opacity: 0.6;
+      scale: (1.05);
+      transition: 0.4s;
+    }
+  }
+
+  &-show {
+    opacity: 1;
+    transform: scale(1);
+    overflow: scroll;
+    transition: all 0.4s;
+  }
+
+  &-content {
+    background-color: #ffedff;
+    padding: 10px 10px;
+    border-radius: 15px;
+    margin: 15px;
+
+    line-height: 1.5rem;
+
+    text-align: justify;
+
+    &_body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

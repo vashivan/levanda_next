@@ -1,0 +1,79 @@
+.schedule {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 15px;
+  column-gap: 25px;
+  padding: 15px;
+
+  @media (min-width: 760px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  &-day {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+
+    height: 250px;
+
+    @media (min-width: 760px) {
+      grid-column: span 2;
+    }
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    &_name {
+      color: #7B5295;
+      padding: 10px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: 900;
+      opacity: 0.9;
+
+      margin: 0;
+
+      &_list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+
+        &_item {
+          display: flex;
+          gap: 10px;
+          padding: 10px;
+
+          width: fit-content;
+
+
+          &_time,
+          &_activity {
+            font-size: 16px;
+          }
+
+          &_time {
+            font-weight: bold;
+            color: #333;
+          }
+
+          &_activity {
+            color: #666;
+          }
+        }
+      }
+    }
+  }
+}

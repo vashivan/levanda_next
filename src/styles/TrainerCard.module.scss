@@ -1,0 +1,100 @@
+.trainerCard {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+
+  &-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: calc(30px + 12px + 1rem);
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 5px;
+    background-color: #ffedff;
+
+    &>h3 {
+      color: #4C266A;
+      font-weight: 700;
+      font-size: 22px;
+    }
+
+    &>h4 {
+      margin: 0;
+      margin-top: 15px;
+      margin-bottom: 10px;
+
+      color: #4C266A;
+      font-weight: 700;
+      font-size: large;
+    }
+
+    &>p {
+      margin: 0;
+      font-weight: 600;
+      margin-bottom: 10px;
+      text-align: center;
+      font-size: 15px;
+    }
+
+    &-active {
+      opacity: 0.9;
+      transition: all 0.4s ease-in-out;
+    }
+  }
+
+  &-title {
+    text-align: center;
+    font-size: 28px;
+    color: #7B5295;
+    opacity: 0.9;
+  }
+
+  &-slogan {
+    display: flex;
+    min-height: 75px;
+    max-height: 75px;
+    text-align: center;
+    font-size: 18px;
+    opacity: 0.8;
+  }
+
+  &-img {
+    border-radius: 18px;
+    width: 100%;
+    height: 100%;
+
+    margin-bottom: 12px;
+  }
+
+  &-btn {
+    font: inherit;
+    padding: 15px;
+    border-style: solid;
+    border-radius: 35px;
+    border-color: #4C266A;
+    background: transparent;
+    border-width: 1px;
+    cursor: pointer;
+
+    color: #4C266A;
+    font-weight: 500;
+
+    transition: 0.4s;
+
+    &:hover {
+      background-color: #4C266A;
+      color: #ffedff;
+      opacity: 0.6;
+      scale: (1.05);
+      transition: 0.4s;
+    }
+  }
+}

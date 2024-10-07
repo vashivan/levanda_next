@@ -1,0 +1,140 @@
+[
+  {
+    "id": 2,
+    "date": "01.05.2024",
+    "title": "Діти, які здійснили свої мрії на конкурсі 'Крила Мрій'",
+    "image": "images/news/krilaMrii/krilaMrii.jpeg",
+    "participants": [
+      {
+        "name": "Хахуда Яна",
+        "images": [
+          "images/news/krilaMrii/hahuda.jpeg",
+          "images/news/krilaMrii/hahuda1.jpeg"
+        ],
+        "performance": "Відчуй мій ритм",
+        "placement": "2 місце"
+      },
+      {
+        "name": "Ремез Діана",
+        "images": [
+          "images/news/krilaMrii/remez.jpeg",
+          "images/news/krilaMrii/remez1.jpeg",
+          "images/news/krilaMrii/remez2.jpeg"
+        ],
+        "performance": "Сніжні мрії",
+        "placement": "1 місце"
+      },
+      {
+        "name": "Ташута Каміла та Ковальчук Тимофій",
+        "images": [
+          "images/news/krilaMrii/tashuta_kovalchuk.jpeg",
+          "images/news/krilaMrii/tashuta_kovalchuk1.jpeg",
+          "images/news/krilaMrii/tashuta_kovalchuk2.jpeg",
+          "images/news/krilaMrii/tashuta_kovalchuk3.jpeg"
+        ],
+        "performance": "Цей дивовижний світ",
+        "placement": "2 місце"
+      },
+      {
+        "name": "Хусейнова Поліна",
+        "images": [
+          "images/news/krilaMrii/huseynova.jpeg",
+          "images/news/krilaMrii/huseynova1.jpeg",
+          "images/news/krilaMrii/huseynova2.jpeg",
+          "images/news/krilaMrii/huseynova3.jpeg"
+        ],
+        "performance": "Нестримна",
+        "placement": "2 місце"
+      },
+      {
+        "name": "Савчук Віра",
+        "images": [
+          "images/news/krilaMrii/savchuk.jpeg",
+          "images/news/krilaMrii/savchuk1.jpeg",
+          "images/news/krilaMrii/savchuk2.jpeg"
+        ],
+        "performance": "Незламна",
+        "placement": "2 місце"
+      },
+      {
+        "name": "Стасюк Юлія",
+        "images": [
+          "images/news/krilaMrii/stasiiuk.jpeg",
+          "images/news/krilaMrii/stasiiuk1.jpeg"
+        ],
+        "performance": "Titanium",
+        "placement": "2 місце"
+      },
+      {
+        "name": "Іванова Валерія",
+        "images": [
+          "images/news/krilaMrii/ivanova.jpeg",
+          "images/news/krilaMrii/ivanova1.jpeg"
+        ],
+        "performance": "Прагнення",
+        "placement": "2 місце"
+      }
+    ],
+    "message": "Вітаємо наших талановитих учасників з чудовими результатами на ВсеукраїнськМи щиро вітаємо наших неймовірних учасників з високими результатами на Всеукраїнському фестивалі-конкурсі хореографічного та циркового мистецтва 'Крила Мрій'. Ви вклали багато праці, енергії та душі у свої виступи, і це принесло чудові результати. Ваша наполегливість та вірність своєму мистецтву є прикладом для всіх нас. Ми також висловлюємо подяку вашим рідним за їхню підтримку та віру в вас. Нехай цей успіх стане ще одним кроком на шляху до нових досягнень. Нехай ваше мистецтво продовжує розвиватися, а кожен виступ приносить вам радість і задоволення!"
+  },
+
+  {
+    "id": 1,
+    "date": "19.04.2024",
+    "title": "Успіхи дітей Lavanda studio на конкурсі 'Oksamyt wonderland'",
+    "image": "images/news/oksamytWonder/oksamytWonder.jpeg",
+    "participants": [
+      {
+        "name": "Ремез Діана",
+        "images": [
+          "images/news/oksamytWonder/remez.jpeg",
+          "images/news/oksamytWonder/remez1.jpeg",
+          "images/news/oksamytWonder/remez2.jpeg"
+        ],
+        "performance": "Сніжні мрії",
+        "placement": "2 місце"
+      },
+      {
+        "name": "Стасюк Юлія",
+        "images": [
+          "images/news/oksamytWonder/stasiiuk.jpeg",
+          "images/news/oksamytWonder/stasiiuk1.jpeg",
+          "images/news/oksamytWonder/stasiiuk2.jpeg"
+        ],
+        "performance": "Titanium",
+        "placement": "2 місце"
+      },
+      {
+        "name": "Дорофеева Мілана",
+        "images": [
+          "images/news/oksamytWonder/dorofeyeva.jpeg",
+          "images/news/oksamytWonder/dorofeyeva1.jpeg",
+          "images/news/oksamytWonder/dorofeyeva2.jpeg"
+        ],
+        "performance": "Моана",
+        "placement": "1 місце"
+      },
+      {
+        "name": "Бондар Єлизавета",
+        "images": [
+          "images/news/oksamytWonder/bondar.jpeg",
+          "images/news/oksamytWonder/bondar1.jpeg",
+          "images/news/oksamytWonder/bondar2.jpeg"
+        ],
+        "performance": "Покажи себе",
+        "placement": "1 місце"
+      },
+      {
+        "name": "Хусейнова Поліна",
+        "images": [
+          "images/news/oksamytWonder/huseynova.jpeg",
+          "images/news/oksamytWonder/huseynova1.jpeg",
+          "images/news/oksamytWonder/huseynova2.jpeg"
+        ],
+        "performance": "Нестримна",
+        "placement": "1 місце"
+      }
+    ],
+    "message": "Ми дуже пишаємося нашими учнями та їхніми досягненнями! Бажаємо їм подальших успіхів і нових перемог. Кожен з вас показав неабияку силу духу, самовіддачу та любов до мистецтва. Нехай ваші перемоги будуть лише початком великої і яскравої дороги в майбутнє. Ми щиро дякуємо вам за вашу наполегливу працю та витримку, адже саме завдяки вашому старанню та підтримці ваших рідних ви досягаєте висот. Пам'ятайте, що кожна спроба, кожен тренування — це крок вперед, і нехай ці кроки ведуть вас до нових вершин і незабутніх вражень!."
+  } 
+]

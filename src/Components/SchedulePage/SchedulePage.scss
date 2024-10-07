@@ -1,0 +1,56 @@
+.schedulePage {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 35px;
+
+  animation: appear 1s ease;
+
+  &_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: #7B5295;
+    opacity: 0.9;
+
+    margin: 0;
+
+    @media (min-width: 760px) {
+      font-size: 32px;
+    }
+
+    @media (min-width: 1200px) {
+      font-size: 38px;
+    }
+  }
+
+  &_groups {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &_title {
+      text-align: center;
+      font-size: 24px;
+      color: #7B5295;
+      opacity: 0.9;
+    }
+
+    &_list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
