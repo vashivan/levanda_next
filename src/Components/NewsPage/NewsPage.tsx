@@ -1,7 +1,8 @@
+import React from 'react';
 import { NewsItem } from '../../Utils/Types';
 import News from '../News/News';
 import ScrollToTop from '../ScrollToTop/ScrollToTop';
-import './NewsPage.scss';
+import styles from '../../styles/NewsPage.module.scss';
 
 type Props = {
   news: NewsItem[]
@@ -9,9 +10,10 @@ type Props = {
 
 const NewsPage: React.FC<Props> = ({ news }) => {
   return (
-    <div className="newsPage">
+    <div className={styles['newsPage']}>
       <ScrollToTop />
-      <News news={news}/>
+
+      <News news={news} />
     </div>
   )
 }
